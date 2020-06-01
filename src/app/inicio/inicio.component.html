@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="card">
+        <app-autenticacion>
+            <h1>{{textoForm}}</h1>
+            <button>{{textoBoton}}</button>
+        </app-autenticacion>
+        <p *ngIf="login">Pulse <b (click)="changeForm()">aquí</b> si no dispone de cuenta</p>
+        <p *ngIf="!login">Pulse <b (click)="changeForm()">aquí</b> si ya dispone de cuenta</p>
+    </div>
+</div>

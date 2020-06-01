@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "jerarquia"
+    }
+  },
+  "defaultProject": "jerarquia",
+  "cli": {
+    "analytics": "983022eb-98ee-417c-8c48-6dc956db2b8d"
+  }
 }
